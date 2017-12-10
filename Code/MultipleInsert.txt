@@ -1,0 +1,7 @@
+db.books.insert(
+   [
+     { isbn: 006, title: "Spanish", author: "John Richards", genre: ["Educational"], status: {borrowed: true, name: "Jack White"} },
+     { isbn: 009, title: "Harry Potter and the Philosopher's Stone", author: " J. K. Rowling", genre: ["Fantasy"], status: {borrowed: false}},
+     { isbn: 010, title: "The Girl with the Dragon Tattoo", author: "Stieg Larsson", genre: ["Thriller"], status: {borrowed: true, name: "Robert Meyer"} }
+   ]
+)

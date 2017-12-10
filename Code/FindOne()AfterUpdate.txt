@@ -1,0 +1,1 @@
+db.books.findOne({ _id : ObjectId("59f35df597ded7ed414efb4a") }) 

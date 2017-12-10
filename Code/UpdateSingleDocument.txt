@@ -1,0 +1,1 @@
+db.books.update({ _id : ObjectId("59f35df597ded7ed414efb4a") }, { $set : { "date" : ISODate("2009-07-31") } } ); 

@@ -1,0 +1,9 @@
+ db.books.insert({
+  isbn: 001,
+  title: "Alice In Wonderland",
+  author: "Lewis Carol", 
+  genre: ["Fiction", "Fantasy" ], 
+  status : { 
+     borrowed : true, 
+      details: "John Snow" } 
+}) 

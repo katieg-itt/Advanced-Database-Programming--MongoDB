@@ -1,0 +1,4 @@
+db.books.find(
+  { title : /^A/, genre : { $all:["Fantasy"]} },
+  { title : 1, genre : 1 }
+)

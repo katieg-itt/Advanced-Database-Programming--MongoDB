@@ -1,0 +1,6 @@
+db.books.find(
+{ 'status.borrowed' : true },
+{ _id : 0, title : 1, status : 1 } 
+)
+
+

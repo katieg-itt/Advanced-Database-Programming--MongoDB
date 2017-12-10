@@ -1,0 +1,2 @@
+function insertBooks(isbn,title,author,genre,status_info) 
+{ db.books.insert({isbn:isbn,title:title,author:author,genre:genre,status:status_info});} 
